@@ -1,5 +1,16 @@
 {
-  "envTav1": "CXanp1HcXLA",
-  "envTav2": "s7lqzS1iLNE",
-  "envTav3": "s7lqzS1iLNE"
+  "tavoli": [
+    {
+      "nome": "Tavolo 6-7",
+      "codice": "CXanp1HcXLA"
+    },
+    {
+      "nome": "Tavolo 8",
+      "codice": "s7lqzS1iLNE"
+    },
+    {
+      "nome": "Tavolo 9",
+      "codice": "s7lqzS1iLNE"
+    }
+  ]
 }
