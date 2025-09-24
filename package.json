@@ -1,6 +1,27 @@
 {
   "type": "module",
   "dependencies": {
-    "node-fetch": "^3.3.1"
-  }
+    "express": "^5.1.0",
+    "googleapis": "^160.0.0",
+    "node-fetch": "^3.3.2",
+    "open": "^10.2.0"
+  },
+  "name": "kingbiliardodata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "updateLive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indacopaolo86-lab/KingBiliardoData.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indacopaolo86-lab/KingBiliardoData/issues"
+  },
+  "homepage": "https://github.com/indacopaolo86-lab/KingBiliardoData#readme"
 }
