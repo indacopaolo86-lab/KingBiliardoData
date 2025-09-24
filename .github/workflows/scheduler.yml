@@ -1,0 +1,36 @@
+name: Aggiorna live YouTube
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # ogni 15 minuti
+  workflow_dispatch:
+
+jobs:
+  aggiorna-live:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installa dipendenze
+        run: npm install
+
+      - name: Esegui script aggiornamento live
+        # env:
+        #   YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        #   CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+        run: node updateLive.js
+
+      - name: Commit e push modifiche
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add streamingurls.json
+          git commit -m "Aggiornamento automatico live stream" || echo "Nessuna modifica"
+          git push
