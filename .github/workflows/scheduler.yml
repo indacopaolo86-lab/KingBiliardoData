@@ -1,4 +1,4 @@
-name: Aggiorna live YouTube
+name: Aggiorna live YouTube v2
 
 on:
   schedule:
