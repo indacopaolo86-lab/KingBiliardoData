@@ -1,12 +1,12 @@
 {
-  tavoli: [
+  "tavoli": [
     {
-      nome: 'adesso funziona\nadesso funziona.',
-      codice: '5PhTCEvWkIY'
+      "nome": "Tavolo 1 - adesso funziona",
+      "codice": "5PhTCEvWkIY"
     },
     {
-      nome: 'adesso funziona1\nadesso funziona1.',
-      codice: 'Iadyh8zbBII'
+      "nome": "Tavolo 2 - adesso funziona1",
+      "codice": "Iadyh8zbBII"
     }
   ]
 }
