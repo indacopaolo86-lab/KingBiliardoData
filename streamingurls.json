@@ -1,12 +1,14 @@
 {
   "tavoli": [
     {
-      "nome": "Tavolo 1 - daniele paolo1",
-      "codice": "CXanp1HcXLA"
+      "nome": "adesso funziona",
+      "descrizione": "adesso funziona.",
+      "codice": "5PhTCEvWkIY"
     },
     {
-      "nome": "Tavolo 2 - daniele paolo2",
-      "codice": "s7lqzS1iLNE"
+      "nome": "adesso funziona1",
+      "descrizione": "adesso funziona1.",
+      "codice": "Iadyh8zbBII"
     }
   ]
 }

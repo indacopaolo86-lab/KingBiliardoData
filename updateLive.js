@@ -26,7 +26,8 @@ async function aggiornaLive() {
 
     data.items.forEach((item) => {
       tavoli.push({
-        nome: `Tavolo ${tavoli.length + 1} - ${item.snippet.title}`,
+        nome: item.snippet.title,
+        descrizione: item.snippet.description,
         codice: item.id.videoId
       });
     });
