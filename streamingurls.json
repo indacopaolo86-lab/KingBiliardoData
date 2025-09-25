@@ -1,11 +1,13 @@
 {
   "tavoli": [
     {
-      "nome": "Tavolo 1 - adesso funziona",
+      "nome": "adesso funziona",
+      "descrizione": "adesso funziona.",
       "codice": "5PhTCEvWkIY"
     },
     {
-      "nome": "Tavolo 2 - adesso funziona1",
+      "nome": "adesso funziona1",
+      "descrizione": "adesso funziona1.",
       "codice": "Iadyh8zbBII"
     }
   ]
