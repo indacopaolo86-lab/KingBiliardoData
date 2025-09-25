@@ -1,12 +1,3 @@
 {
-  "tavoli": [
-    {
-      "nome": "Tavolo 1 - daniele paolo1",
-      "codice": "CXanp1HcXLA"
-    },
-    {
-      "nome": "Tavolo 2 - daniele paolo2",
-      "codice": "s7lqzS1iLNE"
-    }
-  ]
+  "tavoli": []
 }
